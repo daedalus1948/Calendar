@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: rgb(1, 28, 28);
+}
+
+a {
+    text-decoration: none;
+    padding: 6px;
+    margin: 4px;
+    text-align: center;
+    min-width: 30px;
+    background-color: darkgrey;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.navBar {
+    padding: 5px;
+}
+
+.logicBar {
+    background-color: darkgrey;
+}
+
+.nav {
+    background-color:darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+.yearBar {
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.monthBar {
+    display: flex;
+    background-color: darkgrey;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dayBar {
+    display: flex;
+    background-color:rgb(230, 230, 230);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dayBar:last-child {
+    margin-right: auto;
+}
+
+
+.content {
+    padding: 5px;
+}
+
+.appointmentList {
+    display: flex;
+    flex-direction: column;
+}
+
+.active {
+    background-color: rgb(153, 24, 24);
+    color: rgb(230, 230, 230);
+}
+
+a:hover {
+    background-color: rgb(153, 24, 24);
+    color: rgb(230, 230, 230);
+}
+
+.appointment {
+    background-color: darkgrey;
+    padding: 5px;
+    display: flex;
+}
+
+.applink {
+    background-color: darkgrey;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.appointment-time {
+    background-color:rgb(230, 230, 230);
+    margin: 2px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.start-time {
+    text-align: center;
+    padding: 5px;
+}
+
+.end-time {
+    text-align: center;
+    padding: 5px;
+}
+
+.appointment-content {
+    background-color: darkgrey;;
+    margin: 2px;
+    flex: 10;
+}
+
+.name {
+    margin-bottom: 2px;
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+}
+
+.description {
+    margin-bottom: 2px;
+    word-break: break-all;
+    padding: 10px;
+    background-color:rgb(230, 230, 230);
+}
+
+.priority {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.appointment-links {
+    background-color:rgb(230, 230, 230);
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2px;
+}
+
+.edit {
+    text-align: center;
+}
+
+.delete {
+    text-align: center;
+}
+
+.appointmentForm {
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formInput {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+textarea {
+    text-align: left;
+    width: 100%;
+    min-height: 100px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5px;
+}
+
+.time-input-wrapper {
+    display: flex;
+}
+
+.label-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex:1;
+}
+
+label {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.input-error {
+    margin: 2px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    text-align: center;
+    color: red;
+}
+
+button:enabled:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.time-input-wrapper .label-wrapper:last-child {
+    margin-left: 3px;
+} 
+.time-input-wrapper .label-wrapper:first-child {
+    margin-right: 3px;
+} 
+
+.valid {
+    background-color: rgb(165, 218, 140);
+}
+
+.invalid {
+    background-color: rgb(153, 24, 24);
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 100%;
+}
+
+.not-found {
+    text-align: center;
+    padding: 40px;
+    background-color: darkgrey;
+}
