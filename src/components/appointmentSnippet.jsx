@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-import EditAppointmentLink from './links/editAppointmentLink.jsx';
-import DeleteAppointmentLink from './links/deleteAppointmentLink.jsx';
-
 class AppointmentSnippet extends Component {
   render() {
 

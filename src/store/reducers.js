@@ -28,7 +28,7 @@ const calendarReducer = (state = initialState, action) => {
             return dateDeepCopy(state, action, () => {
                 return [
                     ...state[action.payload.date.year][action.payload.date.month][action.payload.date.day]
-                        .map(item => { return item.id == action.payload.data.id ? { ...item, ...action.payload.data } : item})
+                        .map(item => { return item.id === action.payload.data.id ? { ...item, ...action.payload.data } : item})
                 ]
             })
         case 'DELETE_APPOINTMENT':
