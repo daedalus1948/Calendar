@@ -3,6 +3,7 @@
 Calendar is a pure frontend calendar web application written in ES6 React
 using Redux as a temporary data store. User can submit, edit and delete appointments.
 
+![Calendar](https://github.com/daedalus1948/project_images/blob/master/Calendar.png)
 
 ## Additional Information
 
