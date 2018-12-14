@@ -22,4 +22,4 @@ refer to the scripts part of the package.json file for further instructions.
 Javascript ES6, Node.js 10+, React 16+, Redux 4+
 
 ### Thank you creators of Node, React, Redux and others 
-### Created by Daedalus1948@github, 2018
+### Created by pre-zbr/Daedalus1948@github, 2018
